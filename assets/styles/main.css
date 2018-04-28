@@ -655,6 +655,17 @@ p.result {
   font-size: 20px;
 }
 
+.about-us {
+  padding: 15px 20px;
+  background: #fff;
+  margin-top: 35px;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+}
+
+.about-us h2 {
+  margin-bottom: 20px;
+}
+
 @media only screen and (min-width: 1024px) {
   /*hack specificity*/
   .search.search {
@@ -755,4 +766,10 @@ footer a:hover {
 
 .price {
   width: 25%;
+}
+
+@media (max-width: 755px) {
+  .side-menu {
+    margin-top: 90px;
+  }
 }
